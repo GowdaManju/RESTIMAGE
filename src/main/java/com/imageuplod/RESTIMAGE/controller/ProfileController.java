@@ -51,7 +51,7 @@ public class ProfileController {
         @GetMapping("/about")
 	public String getAbout()
 	{
-		return "This is RestImage Project dgvdvdvd";
+		return "This is RestImage Project Manjunatha";
 		 
 	}
 
