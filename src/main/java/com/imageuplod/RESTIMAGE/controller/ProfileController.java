@@ -47,6 +47,13 @@ public class ProfileController {
 		
 //		return ResponseEntity<ProfileImages>(profileImages,HttpStatus.CREATED);
 	}
+	
+        @GetMapping("/about")
+	public String getAbout()
+	{
+		return "This is RestImage Project";
+		
+	}
 
 	@GetMapping("/{userId}")
 	public ProfileImages getProfileImages(@PathVariable("userId") String userId)
